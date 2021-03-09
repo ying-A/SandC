@@ -1,0 +1,12 @@
+jsonlines
+scikit-learn
+transformers==2.8.0
+torch==1.4.0
+nltk
+py-rouge
+-e git+https://github.com/csbhagav/bert_score#egg=bert_score
+spacy
+tqdm
+numpy
+pandas
+wmd
