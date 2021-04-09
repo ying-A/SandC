@@ -365,7 +365,7 @@ if __name__ == '__main__':
     get_dev_test_skeletons(paths, "dev", do_merge)
     get_dev_test_skeletons(paths, "test", do_merge)
 
-    # for customize, not do augmentation for the skeletons of the train set.
+    # for customize, do augmentation for the skeletons of the train set.
     paths[
         'train_skeletons_path'] = "data/aug_merge_train_skeletons_supervised_large.json"
     get_train_skeletons(paths, "train_aug", do_merge, 0.2, 0.2)
